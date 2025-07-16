@@ -1,7 +1,7 @@
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import { Button } from "@/components/ui/button";
-import Stats from "@/components/ui/stats";
+import Stats from "@/components/ui/Stats";
 import { FiDownload } from "react-icons/fi";
 import { JetBrains_Mono } from "next/font/google";
 
