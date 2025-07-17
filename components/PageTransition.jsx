@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 const PageTransition = ({ children }) => {
   const pathname = usePathname();
   return (
-    // <AnimatePresence mode="">
       <div key={pathname}>
         <motion.div
           initial={{ opacity: 1 }}
@@ -16,7 +15,6 @@ const PageTransition = ({ children }) => {
         />
         {children}
       </div>
-    // </AnimatePresence>
   );
 };
 
