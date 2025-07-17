@@ -17,9 +17,9 @@ module.exports = {
   		lg: '960px',
   		xl: '1200px'
   	},
-  	fontFamily: {
-  		primary: 'jetbrains-mono, sans-serif',
-  	},
+      fontFamily: {
+        primary: 'var(--font-jetbrainsMono)', 
+      },
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',

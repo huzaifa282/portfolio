@@ -3,8 +3,6 @@ import Social from "@/components/Social";
 import { Button } from "@/components/ui/button";
 import Stats from "@/components/ui/Stats";
 import { FiDownload } from "react-icons/fi";
-import { JetBrains_Mono } from "next/font/google";
-
 export default function Home() {
   console.log("Home mounted");
   return (
@@ -17,7 +15,7 @@ export default function Home() {
               {`Hello I'm `}
               <br /> <p className="text-accent">Huzaifa Ahmad</p>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
+            <p className=" max-w-[500px] mb-9 text-white/80">
               Crafting seamless front-end experiences through thoughtful design,
               clean code, and performance-driven development.
             </p>
