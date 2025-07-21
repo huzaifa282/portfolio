@@ -16,8 +16,7 @@ export default function Home() {
               <br /> <p className="text-accent">Huzaifa Ahmad</p>
             </h1>
             <p className=" max-w-[500px] mb-9 text-white/80">
-              Crafting seamless front-end experiences through thoughtful design,
-              clean code, and performance-driven development.
+              I create fast, elegant front-end experiences with clean code and thoughtful design.
             </p>
             <div className="flex flex-col items-center gap-8 xl:flex-row">
               <a download="huzaifa_cv" href="/cv.pdf">

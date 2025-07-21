@@ -2,7 +2,6 @@
 
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-// require("dotenv").config();
 
 
 import { Button } from "@/components/ui/button";
@@ -94,7 +93,7 @@ const Contact = () => {
             >
               <h3 className="text-4xl text-accent">{`Let's work together`}</h3>
               <p className="text-white/60">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              We’re excited to collaborate with you! Please fill out the form to get started.
               </p>
 
               <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
