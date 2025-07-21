@@ -18,10 +18,10 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Frontend",
+    category: "CYDE BLOG",
     title: "Project 1",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non.",
+      "Cyde.xyz is a responsive, modular website for showcasing and distributing Minecraft PvP tools with a clean and user-friendly interface.",
     stack: [
       {
         name: "HTML 5",
@@ -32,50 +32,17 @@ const projects = [
       {
         name: "Javascript",
       },
-    ],
-    image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "02",
-    category: "Frontend",
-    title: "Project 1",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non.",
-    stack: [
       {
-        name: "Next Js",
+        name: "VueJs",
       },
       {
-        name: "Tailwind CSS",
-      },
-      {
-        name: "Node Js",
+        name: "Python",
       },
     ],
-    image: "/assets/work/thumb2.png",
-    live: "",
+    image: "/assets/work/thumb1.jpg",
+    live: "https://cyde.xyz",
     github: "",
-  },
-  {
-    num: "03",
-    category: "Frontend",
-    title: "Project 1",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec purus feugiat, molestie ipsum et, consequat nibh. Etiam non.",
-    stack: [
-      {
-        name: "Next Js",
-      },
-      {
-        name: "Tailwind CSS",
-      },
-    ],
-    image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
-  },
+  }
 ];
 const Work = () => {
   const [project, SetProject] = useState(projects[0]);
@@ -116,7 +83,7 @@ const Work = () => {
               </ul>
               <div className="border border-white/20"></div>
               <div className="flex items-center gap-4">
-                <Link href={project.live}>
+                <Link target="_blank" href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -124,18 +91,6 @@ const Work = () => {
                       </TooltipTrigger>
                       <TooltipContent className="px-3 text-black bg-white rounded-lg">
                         <p>Live Project</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                </Link>
-                <Link href={project.github}>
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsGithub className="text-3xl text-white group-hover:text-accent" />
-                      </TooltipTrigger>
-                      <TooltipContent className="px-3 text-black bg-white rounded-lg">
-                        <p>Github Repository</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
